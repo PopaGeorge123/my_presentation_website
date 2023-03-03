@@ -88,8 +88,8 @@ body{
     border:5px solid rgb(105, 105, 105);
     padding:10px;
     border-radius:20px;
-    background-image:url("/background-img.jpg") 
-    
+    /* background-image:url("/background-img.jpg")  */
+    background-color: rgb(69, 239, 255);
     
 
 
@@ -120,7 +120,7 @@ input{
     border-bottom-right-radius:25px;
     border-top-left-radius:25px;
     text-align:center;
-    background-color:rgb(38, 38, 221);
+    background-color:rgb(55, 255, 0);
     animation-name: imputAnimation;
     animation-duration: 5s;
     background-repeat: no-repeat; 
