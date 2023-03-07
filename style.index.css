@@ -3,7 +3,66 @@ html{
 }
 
 body{
-     background:rgb(255, 2, 2);
+    background:rgb(210, 210, 210);
+    margin:0; 
+    padding: 0;
     
-     }
+}
+
+#header_menu{
+    width: 100vw;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+    animation: expand_menu;
+    animation:4s ease-in linear;
+}
+
+#container_header{
+    display: flex;
+    flex-direction: row;
+    offset-distance: 10px;
+    justify-content:space-between;
+
+}
+
+#logo_id{
+        background-image: url("/Logo.png");
+        background-size:cover;
+        width: 100%;
+        height: auto;
+        border: solid 2px red;
+}
+
+#menu_icon_id{
+    position: relative;
+    right: 5px;
+}
+.expand_menu{
+    animation-name: expand_menu;
+    animation: ease-in;
+}
+
+.inpand_menu{
+    animation-name: inpand_menu;
+    animation: ease-in;
+}
+
+@keyframes expand_menu {
+    from{
+        width: 55px;
+    }
+    to{
+        width: 100vh;
+    }
+}
+
+@keyframes inpand_menu {
+    from{
+        width: 100vh;
+    }
+    to{
+        width: 55px;
+    }
+}
 
