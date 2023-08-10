@@ -1,0 +1,3 @@
+[build]
+  publish = "." # Path to the directory with your built static assets (e.g., if you have a "public" directory)
+  functions = "functions" # Path to your serverless functions directory
